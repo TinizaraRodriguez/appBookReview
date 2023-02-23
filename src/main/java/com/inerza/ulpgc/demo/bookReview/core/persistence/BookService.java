@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @Service
-public class BookService implements IBookService {
+public abstract class BookService implements IBookService {
 
     @Autowired
     private BookRepository bookRepository;
